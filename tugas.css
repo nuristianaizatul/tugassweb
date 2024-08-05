@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family:'comic sans ms';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: white;
+
+    .resized-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        width: 50%; 
+    }
+    
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #a4e0f2fb;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #7bc7defb;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem 10%;
+}
+
+h2 {
+    padding-bottom: 0.25rem;
+    color: #a4e0f2fb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: #131313;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #a6fcf6;
+}
+
+thead th {
+    background-color: #131313;
+    padding: 0.5rem;
+    border: 1px solid #00ffee;
+}
+
+tbody td {
+    padding: 0.5rem;
+    border: 1px solid #00ffee;
+    text-align: center;
+    color:ccc;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
